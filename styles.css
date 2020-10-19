@@ -1,9 +1,19 @@
+:root {
+  --primary: #28df99;
+  --secondary: #eeeeee;
+  --background: #1a1a2e;
+}
+
 body {
-  background: #1b1b2f;
-  font-family: 'Ubuntu', sans-serif;
+  background: var(--background);
+  font-family: "Titillium Web", sans-serif;
   height: 100%;
 }
 
+#stopwatch {
+  width: 6.5rem;
+  margin: 16px;
+}
 p {
   font-size: 1.3rem;
   margin-top: 7%;
@@ -14,49 +24,52 @@ p {
 }
 
 .beg {
-  color: #ff5200;
+  color: var(--secondary);
   font-size: 10rem;
 }
 
-.wrapper {
+#timerContainer {
   width: 1000px;
   margin: 30px auto;
-  color: #fff;
+  color: var(--secondary);
   text-align: center;
 }
 
 a {
-  color: #ff5200;
+  color: var(--primary);
   text-decoration: none;
 }
 
 a:hover {
   color: #fff;
 }
-.ctrl{
-  margin-top:10%;
+.ctrl {
+  margin-top: 10%;
 }
-h1, h2, h3 {
-  color:grey;
+h1,
+h2,
+h3 {
   font-weight: 100;
   font-size: 2.6em;
   margin-bottom: 5%;
 }
 
-#seconds, #tens {
+#seconds,
+#tens {
   font-size: 2em;
 }
 
 button {
   margin-top: 20px;
-  background: #1b1b2f;
-  color: #fff;
+  color: var(--secondary);
+  background: var(--background);
   border: none;
   padding: 18px 10px;
   width: 180px;
   margin: 10px;
+  cursor: pointer;
 }
 
 button:hover {
-  color: #ff5200;
+  color: var(--primary);
 }
