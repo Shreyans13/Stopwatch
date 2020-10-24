@@ -14,14 +14,7 @@ body {
   width: 6.5rem;
   margin: 16px;
 }
-p {
-  font-size: 1.3rem;
-  margin-top: 7%;
-}
 
-.mid {
-  font-size: 11rem;
-}
 
 .beg {
   color: var(--secondary);
@@ -35,28 +28,9 @@ p {
   text-align: center;
 }
 
-a {
-  color: var(--primary);
-  text-decoration: none;
-}
 
-a:hover {
-  color: #fff;
-}
 .ctrl {
   margin-top: 10%;
-}
-h1,
-h2,
-h3 {
-  font-weight: 100;
-  font-size: 2.6em;
-  margin-bottom: 5%;
-}
-
-#seconds,
-#tens {
-  font-size: 2em;
 }
 
 button {
