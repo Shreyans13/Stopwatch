@@ -1,7 +1,7 @@
 ## Interactive Stopwatch ⏱ for personal use😍. 
 
-### Project by [Hitik Saini](https://hitik20.tech)
-Click  the link in about section to see it or just [bookmark](https://hitiksaini.github.io/Stopwatch/) it for your future use.
+### Project by [Hitik Saini](https://hitik20.tech) modified by [Shreyans Jain](https://shreyans13.github.io/CLI-Portfolio/)
+Click  the link in about section to see it or just [bookmark](https://shreyans13.github.io/Stopwatch/) it for your future use.
 
 ### Source of inspiration
 I made it for my personal use to manage my working hours but eventually decided to contribute it to open source. 
